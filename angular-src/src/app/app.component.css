@@ -1,0 +1,16 @@
+#app-sidebar {
+  width: 20%;
+  height: 100%;
+  float: left;
+}
+
+#app-mapView {
+  width: 80%;
+  height: 100%;
+  float: right;
+}
+
+#app-wrapper {
+  width: 100vw;
+  height: 100vh;
+}

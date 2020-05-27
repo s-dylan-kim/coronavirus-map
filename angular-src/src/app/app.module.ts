@@ -3,14 +3,24 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { MapViewComponent } from './map-view/map-view.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialFileInputModule } from 'ngx-material-file-input'
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MapViewComponent
+    MapViewComponent,
+    SidebarComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule,
+    MaterialFileInputModule,
+    MatFormFieldModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
