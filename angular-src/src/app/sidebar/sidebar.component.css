@@ -1,14 +1,17 @@
-p {
+#sidebar-wrapper {
   padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 ngx-mat-file-input {
   width: 80%;
-  box-sizing: border-box;
 }
 
 mat-form-field {
   width: 100%;
-  box-sizing: border-box;
-  padding: 10px;
+}
+
+button {
+  width: 100%;
 }
