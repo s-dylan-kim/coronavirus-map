@@ -4,14 +4,13 @@
   box-sizing: border-box;
 }
 
-ngx-mat-file-input {
-  width: 80%;
-}
-
 mat-form-field {
   width: 100%;
+  padding-bottom: -5px;
 }
+
 
 button {
   width: 100%;
+  margin-bottom: 10px;;
 }
