@@ -6,6 +6,7 @@
       <ngx-mat-file-input
         valuePlaceholder="Upload your Data"
         (change)="onFileUpload($event)"
+        [accept]="'.json'"
         >
       </ngx-mat-file-input>
       <mat-icon matSuffix>folder</mat-icon>
